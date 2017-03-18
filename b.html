@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="jq/jquery-ui.js">
+		<link rel="stylesheet" href="jq/jquery-ui.css">
+		<script type="text/javascript">
+			$(function(){
+				$( "ul.parent" ).hover(function() {
+  $( ".child " ).toggle( "blind", 1000 );
+});
+		};
+		 </script>
+		<style type="text/css">
+		* {
+			margin: 0;
+			padding: 10;
+			font-family: sans-serif;
+			font-size: large;
+ 			}
+			ul.parent > li:hover{
+				background-color: rgba(54, 97, 112, 0.5);
+			}
+
+		li{
+			list-style: none;
+		}
+		ul.parent > li {
+			display: block;
+			background: rgb(74, 74, 74);
+			color: white;
+
+
+		}
+		.child {
+			list-style: none;
+			display: none;
+		}
+		.navi {
+			width: 100%;
+			background: rgba(94, 97, 97, 0.1);
+			text-decoration: none;
+			text-transform: capitalize;
+
+
+		}
+		.navi {
+			color: inherit;
+			display: block;
+			text-decoration: none;
+			padding: 10px 0px 10px 20px;
+			border-bottom: 1px dotted grey;
+		}
+
+		.navi .sub-arrow:after {
+			content: '\203A';
+			float: right;
+			margin-right: 10px;
+			transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+		}
+		</style>
+
+	</head>
+	<body style="background-color:#94979b;">
+		<nav class="navi">
+			<ul class="parent">
+				<li>  project 1 <span class="sub-arrow"></span>
+						<ul class="child">
+						<li> sub project 1 </li>
+						<li> sub project 2 </li>
+						<li> sub project 3 </li>
+						<li> sub project 4 </li>
+						<li> sub project 5 </li>
+				</ul>
+			</li>
+			<li>  project 2 </li>
+			<li>  project 3 </li>
+			<li>  project 4 </li>
+			<li>  project 5 </li>
+
+			</ul>
+		</nav>
+
+	</body>
+
+</html>

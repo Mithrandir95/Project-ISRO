@@ -1,0 +1,94 @@
+body{
+  margin:0;
+}
+header{
+  background: rgb(63, 213, 52);
+  color: white;
+  padding: none;
+  height:122px;
+}
+header h1{
+  display:inline;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 32;
+  float:left;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+nav ul{
+  display: inline;
+  margin-right: 30px;
+  font-size: 32;
+  font-weight: 400;
+  padding: 0px;
+  float: right;
+  }
+nav ul li{
+    text-align: right;
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float:right;
+    margin-right: 5px;
+}
+nav ul li a{
+  color:white;
+  text-decoration: none;
+}
+#imginfo img {
+  background-color:white;
+  opacity: 1.0;
+  margin-left: 0px;
+  padding-left: 0px;
+	width: 120px;
+	height:130px;
+
+	float:left;
+}
+.divs{
+  background-color: black;
+  height: 5px;
+}
+.high{
+  background-color: black;
+  padding: 32px 10px 58px 10px;
+}
+.low:hover{
+  background-color: red;
+  padding: 32px 10px 58px 10px;
+
+}
+#container
+{
+  background: yellow;
+  width:100%;
+  height: 100%;
+  border:2px solid black;
+}
+#side
+{
+ margin-left: 0px;
+  background: skyblue;
+  width:20%;
+  height: 70%;
+  float:left;
+  border:2px solid black;
+}
+#section
+{
+  background: orange ;
+  width:50%;
+  height: 70%;
+  float:left;
+  border:2px solid black;
+}
+
+#side1
+{
+  background: skyblue;
+  width:28.79%;
+  height: 70%;
+  float:right ;
+  border:2px solid black;
+}
